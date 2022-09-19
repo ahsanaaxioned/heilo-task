@@ -109,6 +109,9 @@ header .wrapper{
   width: 100%;
   padding: 35px 0;
   background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .navbar{
@@ -116,10 +119,13 @@ header .wrapper{
   justify-content: space-between;
 }
 
-.navbar-list{
-  font-size: 20px;
-  flex-basis: 50%;
-  text-align: right;
+.navbar  .h1-span1{
+  text-transform: uppercase;
+}
+
+.h1-span{
+  color: #fff;
+  text-transform: capitalize;
 }
 
 .logo{
@@ -128,14 +134,23 @@ header .wrapper{
   flex-basis: 50%;
 }
 
-.navbar  span{
-  text-transform: uppercase;
+.navbar-list{
+  font-size: 20px;
+  flex-basis: 50%;
+  text-align: right;
+  text-transform: capitalize;
+}
+.navbar-list li{
+  padding: 0 25px;
 }
 
-.h1-span{
-  /* color: #fff; */
-  color: black;
-  text-transform: capitalize;
+.navbar li a{
+  color: #fff;
+}
+
+.navbar .navbar-list li a.active,
+.navbar .navbar-list li a:hover{
+  color:#3a6f7a ;
 }
 
 .bar {
@@ -158,7 +173,18 @@ header .wrapper{
 /*=================================
   main styling starts here
 =================================*/
+.banner .wrapper{
+  width: 100%;
+}
 
+.banner {
+  padding: 230px 0 35px 0;
+  background :url("/images/slide01.jpg") rgba(0, 0, 0, 0.4); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: center;
+}
 
 
 
