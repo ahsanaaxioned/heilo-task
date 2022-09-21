@@ -7,13 +7,87 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -23,17 +97,30 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
 
-input[type='radio'] { vertical-align: text-bottom; }
+input[type='radio'] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
@@ -49,7 +136,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   width: 100%;
@@ -65,8 +154,13 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
-sub { bottom: -.25em; }
+sup {
+  top: -.7em;
+}
+
+sub {
+  bottom: -.25em;
+}
 
 /* 1.2. Clear Fix
    ========================== */
@@ -77,8 +171,13 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
 
 /*for all*/
 body {
@@ -86,9 +185,9 @@ body {
   font-family: sans-serif;
 }
 
-a { 
+a {
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 li {
@@ -99,13 +198,14 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 86%;
   margin: 0 auto;
 }
+
 /*=================================
   Header styling starts here
 =================================*/
-header .wrapper{
+header .wrapper {
   width: 100%;
   padding: 35px 0;
   background-color: transparent;
@@ -114,46 +214,47 @@ header .wrapper{
   left: 0;
 }
 
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
 }
 
-.navbar  .h1-span1{
+.navbar .h1-span1 {
   text-transform: uppercase;
 }
 
-.h1-span{
+.h1-span {
   color: #fff;
   font-size: 20px;
   text-transform: capitalize;
-  
+
 }
 
-.logo{
+.logo {
   padding-left: 15px;
   color: #747A6D;
   font-size: 15px;
   flex-basis: 50%;
 }
 
-.navbar-list{
+.navbar-list {
   font-size: 20px;
   flex-basis: 50%;
   text-align: right;
   text-transform: capitalize;
 }
-.navbar-list li{
+
+.navbar-list li {
   padding: 0 25px;
 }
 
-.navbar li a{
+.navbar li a {
   color: #fff;
 }
 
 .navbar .navbar-list li a.active,
-.navbar .navbar-list li a:hover{
-  color:#747A6D;
+.navbar .navbar-list li a:hover {
+  color: #747A6D;
   text-decoration: underline;
 }
 
@@ -166,27 +267,28 @@ header .wrapper{
   text-indent: -9999px;
   transition: all 0.3s;
 }
+
 /*=================================
   Header styling ends here
-=================================*/  
+=================================*/
 
 /*=================================
   main styling starts here
 =================================*/
-.banner .wrapper{
+.banner .wrapper {
   width: 100%;
 }
 
 .banner {
   padding: 230px 0 35px 0;
-  background :url("/images/slide01.jpg") rgba(0, 0, 0, 0.4); 
+  background: url("/images/slide01.jpg") rgba(0, 0, 0, 0.4);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
   background-position: center;
 }
 
-.banner .wrapper h5{
+.banner .wrapper h5 {
   margin: 0 0 25px 0;
   color: #747A6D;
   font-size: 14px;
@@ -195,11 +297,11 @@ header .wrapper{
   letter-spacing: 4px;
 }
 
-.banner .h5-span{
+.banner .h5-span {
   color: #fff;
 }
 
-.banner h2{
+.banner h2 {
   width: 20%;
   padding: 15px 0 80px 0;
   border-top: 1px solid #fff;
@@ -216,40 +318,45 @@ header .wrapper{
   height: 12px;
   border: none;
   border-radius: 50%;
-  margin-right:10px ;
+  margin-right: 10px;
   background-color: #747A6D;
   text-indent: -9999px;
   cursor: pointer;
 }
 
-.banner-list li button:hover{
+.banner-list li button:hover {
   background-color: #fff;
 }
 
-.banner-list li:nth-child(1) button{
+.banner-list li:nth-child(1) button {
   background-color: #fff;
 }
 
-.banner-list{
+.banner-list {
   padding-top: 100px;
   text-align: center;
 }
 
-.more .wrapper{
+.more {
+  background-color: #F2F2F2;
+}
+
+.more .wrapper {
   width: 86%;
   padding: 82px 0;
 }
 
-.more-list{
+.more-list {
   display: flex;
   justify-content: space-between;
 }
 
-.more-list .more-item{
+.more-list .more-item {
+  background-color: #fff;
   flex-basis: 47.6%;
 }
 
-.more-item h6{
+.more-item h6 {
   margin-top: 40px;
   margin-bottom: 13px;
   color: #747A6D;
@@ -259,26 +366,69 @@ header .wrapper{
   text-transform: uppercase;
 }
 
-.more-item .para{
-  width: 43%;
+.para::before {
+  width: 50%;
+  height: 1px;
+  background-color: #CFCFCF;
+  display: block;
+  content: "";
+  position: absolute;
+  left: 28%;
+  top: 0%;
+
+}
+
+.more-item .para {
   padding-top: 10px;
-  border-top: 1px solid #E7E7E7;
+  padding-bottom: 36px;
   margin: 0 auto;
   color: #181818;
   font-size: 25px;
   text-align: center;
+  position: relative;
 }
 
-.more-item .para .para-span{
+.more-item .para .para-span {
   text-transform: capitalize;
 }
+
+.more-item p {
+  padding: 0 5px 30px 40px;
+  color: #747A6D;
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.more-item .para-span1 {
+  text-transform: capitalize;
+}
+
+.lern-btn {
+  margin-bottom: 38px;
+  text-align: center;
+}
+
+.lern-btn a {
+  padding: 10px 10px;
+  border: 2px solid #C8C8C8;
+  color: #444644;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.lern-btn a:hover {
+  color: #fff;
+  background-color: #444644;
+}
+
 /*=================================
   main styling ends here
 =================================*/
 
 /*=================================
   footer styling starts here
-=================================*/ 
+=================================*/
 
 
 
@@ -286,14 +436,10 @@ header .wrapper{
 
 
 
- /*=================================
+/*=================================
   footer styling ends here
-=================================*/ 
+=================================*/
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
+@media only screen and (max-width: 995px) {}
