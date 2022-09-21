@@ -367,19 +367,19 @@ header .wrapper {
 }
 
 .para::before {
-  width: 50%;
+  width: 46%;
   height: 1px;
-  background-color: #CFCFCF;
+  background-color: #e7e7e7;
   display: block;
   content: "";
   position: absolute;
-  left: 28%;
+  left: 30.5%;
   top: 0%;
 
 }
 
 .more-item .para {
-  padding-top: 10px;
+  padding-top: 11px;
   padding-bottom: 36px;
   margin: 0 auto;
   color: #181818;
@@ -393,7 +393,7 @@ header .wrapper {
 }
 
 .more-item p {
-  padding: 0 5px 30px 40px;
+  padding: 0 20px 30px 40px;
   color: #747A6D;
   font-size: 14px;
   letter-spacing: 2px;
