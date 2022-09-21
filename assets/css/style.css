@@ -212,7 +212,6 @@ header .wrapper {
   position: absolute;
   top: 0;
   left: 0;
-  overflow: hidden;
 }
 
 .navbar {
@@ -258,8 +257,8 @@ header .wrapper {
   text-decoration: underline;
 }
 
-.hamburger{
-  display:none;
+.hamburger {
+  display: none;
   position: relative;
 }
 
@@ -273,7 +272,7 @@ header .wrapper {
   transition: all 0.3s;
 }
 
-.menu-sspan{
+.menu-sspan {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 15px;
@@ -453,7 +452,7 @@ header .wrapper {
   text-transform: uppercase;
 }
 
-.feature h4{
+.feature h4 {
   padding-top: 12px;
   color: #fff;
   font-size: 28px;
@@ -461,11 +460,11 @@ header .wrapper {
   position: relative;
 }
 
-.feature h4 span{
+.feature h4 span {
   text-transform: capitalize;
 }
 
-.feature h4::before{
+.feature h4::before {
   width: 50%;
   height: 1px;
   background-color: #606568;
@@ -476,16 +475,16 @@ header .wrapper {
   top: 0%;
 }
 
-.gallery{
+.gallery {
   padding: 70px 0;
   background-color: #D9D9D9;
 }
 
-.gallery .gallery-sec .wrapper{
+.gallery .gallery-sec .wrapper {
   width: 96%;
 }
 
-.gallery .gallery-sec h5{
+.gallery .gallery-sec h5 {
   padding-bottom: 11px;
   color: #676B6D;
   font-size: 10px;
@@ -494,7 +493,7 @@ header .wrapper {
   text-transform: uppercase;
 }
 
-.gallery .gallery-sec h4{
+.gallery .gallery-sec h4 {
   padding-top: 12px;
   color: #25210B;
   font-size: 28px;
@@ -502,11 +501,11 @@ header .wrapper {
   position: relative;
 }
 
-.gallery .gallery-sec h4 span{
+.gallery .gallery-sec h4 span {
   text-transform: capitalize;
 }
 
-.gallery .gallery-sec h4::before{
+.gallery .gallery-sec h4::before {
   width: 50%;
   height: 1px;
   background-color: #606568;
@@ -517,18 +516,19 @@ header .wrapper {
   top: 0%;
 }
 
-.gallery-list{
+.gallery-list {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-.gallery-item{
+.gallery-item {
   flex-basis: 41%;
   background-color: #E5E5E5;
-  padding: 15px ;
+  padding: 15px;
   margin: 34px 0 21px 0;
 }
+
 /*=================================
   main styling ends here
 =================================*/
@@ -536,20 +536,22 @@ header .wrapper {
 /*=================================
   footer styling starts here
 =================================*/
-footer{
+footer {
   background-color: #000;
   padding: 58px 0 52px 0;
 
 }
-footer .wrapper{
+
+footer .wrapper {
   text-align: center;
   width: 100%;
 }
-footer .social-list .links a{
+
+footer .social-list .links a {
   text-indent: -9999px;
 }
 
-.twitter::before{
+.twitter::before {
   padding-left: 16px;
   color: #737373;
   float: left;
@@ -559,7 +561,7 @@ footer .social-list .links a{
   text-indent: 0;
 }
 
-.facebook::before{
+.facebook::before {
   padding-left: 16px;
   color: #737373;
   float: left;
@@ -569,7 +571,7 @@ footer .social-list .links a{
   text-indent: 0;
 }
 
-.instagram::before{
+.instagram::before {
   padding-left: 16px;
   color: #737373;
   float: left;
@@ -579,7 +581,7 @@ footer .social-list .links a{
   text-indent: 0;
 }
 
-.mail::before{
+.mail::before {
   padding-left: 16px;
   color: #737373;
   float: left;
@@ -592,18 +594,19 @@ footer .social-list .links a{
 .twitter:hover::before,
 .facebook:hover::before,
 .instagram:hover::before,
-.mail:hover::before{
+.mail:hover::before {
   color: #fff;
 }
 
-footer p{
+footer p {
   padding-top: 38px;
   color: #6A7570;
   font-size: 12px;
   letter-spacing: 1px;
-  
+
 }
-footer p span{
+
+footer p span {
   text-transform: capitalize;
 }
 
@@ -615,85 +618,106 @@ footer p span{
 /*media query starts*/
 /*media query for 1025px-1200px starts here*/
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-  .banner h2{
+  .banner h2 {
     width: 25%;
   }
+
   .para::before {
     width: 48.5%;
     left: 28%;
   }
 
 }
-  /*media query for 1025px-1200px end here*/
-  /*media query for 996px-1024px starts here*/
-  @media only screen and (min-width: 996px) and (max-width: 1024px) {
-    .banner h2{
-      width: 26%;
-    }
-    .para::before {
-      width: 51.5%;
-      left: 25%;
-    }
-   
+
+/*media query for 1025px-1200px end here*/
+/*media query for 996px-1024px starts here*/
+@media only screen and (min-width: 996px) and (max-width: 1024px) {
+  .banner h2 {
+    width: 26%;
   }
- /*media query for 996px-1024px end here*/
-  /*media query for 769px-995px starts here*/
-  @media only screen and (min-width: 769px) and (max-width: 996px) {
-    .banner h2{
-      width: 35%;
-    }
 
-    .more-item h6 {
-      font-size: 8px;
-    }
-    .para::before {
-      width: 65.5%;
-      left: 18%;
-    }
-   
+  .para::before {
+    width: 51.5%;
+    left: 25%;
   }
- /*media query for 769px-995px end here*/
-  /*media query for 769px-995px starts here*/
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .navbar-list{
-      display: none;
-    }
 
-    .hamburger{
-      display: flex;
-      align-items: center;
-    }
-
-    .banner h2{
-      width: 35%;
-    }
-
-    .more-item h6 {
-      font-size: 8px;
-    }
-    .para::before {
-      width: 65.5%;
-      left: 18%;
-    }
-
-    
-
-.hamburger:hover ~ .navbar-list{
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  height: 100vh;
-  right: 0%;
-  top: -36px;
-  width: 50%;
-  background-color: rgba(27,74,74,0.7);
-  line-height: 60px;
-  align-items: center;
-  justify-content: center;
-  box-shadow: rgb(0 0 0 / 80%) -6px -2px 16px 0px;
 }
-    }
 
-   
-  
- /*media query for 769px-995px end here*/
+/*media query for 996px-1024px end here*/
+/*media query for 769px-995px starts here*/
+@media only screen and (min-width: 769px) and (max-width: 996px) {
+  .banner h2 {
+    width: 35%;
+  }
+
+  .more-item h6 {
+    font-size: 8px;
+  }
+
+  .para::before {
+    width: 65.5%;
+    left: 18%;
+  }
+
+}
+
+/*media query for 769px-995px end here*/
+/*media query for 769px-995px starts here*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  header .wrapper{
+    padding: 0;
+  }
+
+  .logo{
+    margin-top: 35px;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    right: 0%;
+    top: -36px;
+    width: 50%;
+    background-color: rgba(27, 74, 74, 0.7);
+    line-height: 60px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 80%) -6px -2px 16px 0px;
+    transform: translateX(100%);
+    transition: all .3s;
+  }
+
+  .hamburger {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right:0;
+    z-index: 9999;
+    margin-top: 35px;
+  }
+
+  .banner h2 {
+    width: 35%;
+  }
+
+  .more-item h6 {
+    font-size: 8px;
+  }
+
+  .para::before {
+    width: 65.5%;
+    left: 18%;
+  }
+
+
+
+  .hamburger:hover + .navbar-list {
+    display: flex;
+    transform: translateX(0);
+  }
+}
+
+
+
+/*media query for 769px-995px end here*/
