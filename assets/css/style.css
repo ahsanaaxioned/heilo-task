@@ -212,6 +212,7 @@ header .wrapper {
   position: absolute;
   top: 0;
   left: 0;
+  overflow: hidden;
 }
 
 .navbar {
@@ -257,14 +258,27 @@ header .wrapper {
   text-decoration: underline;
 }
 
-.bar {
+.hamburger{
+  display:none;
+  position: relative;
+}
+
+.hamburger .bar {
   width: 25px;
   height: 3px;
   margin: 5px;
-  display: none;
+  display: block;
   background-color: #fff;
   text-indent: -9999px;
   transition: all 0.3s;
+}
+
+.menu-sspan{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #fff;
 }
 
 /*=================================
@@ -599,5 +613,87 @@ footer p span{
 =================================*/
 
 /*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {}
+/*media query for 1025px-1200px starts here*/
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .banner h2{
+    width: 25%;
+  }
+  .para::before {
+    width: 48.5%;
+    left: 28%;
+  }
+
+}
+  /*media query for 1025px-1200px end here*/
+  /*media query for 996px-1024px starts here*/
+  @media only screen and (min-width: 996px) and (max-width: 1024px) {
+    .banner h2{
+      width: 26%;
+    }
+    .para::before {
+      width: 51.5%;
+      left: 25%;
+    }
+   
+  }
+ /*media query for 996px-1024px end here*/
+  /*media query for 769px-995px starts here*/
+  @media only screen and (min-width: 769px) and (max-width: 996px) {
+    .banner h2{
+      width: 35%;
+    }
+
+    .more-item h6 {
+      font-size: 8px;
+    }
+    .para::before {
+      width: 65.5%;
+      left: 18%;
+    }
+   
+  }
+ /*media query for 769px-995px end here*/
+  /*media query for 769px-995px starts here*/
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .navbar-list{
+      display: none;
+    }
+
+    .hamburger{
+      display: flex;
+      align-items: center;
+    }
+
+    .banner h2{
+      width: 35%;
+    }
+
+    .more-item h6 {
+      font-size: 8px;
+    }
+    .para::before {
+      width: 65.5%;
+      left: 18%;
+    }
+
+    
+
+.hamburger:hover ~ .navbar-list{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100vh;
+  right: 0%;
+  top: -36px;
+  width: 50%;
+  background-color: rgba(27,74,74,0.7);
+  line-height: 60px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgb(0 0 0 / 80%) -6px -2px 16px 0px;
+}
+    }
+
+   
+  
+ /*media query for 769px-995px end here*/
