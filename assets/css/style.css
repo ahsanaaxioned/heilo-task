@@ -336,22 +336,16 @@ header .wrapper {
   cursor: pointer;
 }
 
-.banner-list li button:hover {
-  background-color: #fff;
-}
+.banner-list li button:hover { background-color: #fff; }
 
-.banner-list li:nth-child(1) button {
-  background-color: #fff;
-}
+.banner-list li:nth-child(1) button { background-color: #fff; }
 
 .banner-list {
   padding-top: 100px;
   text-align: center;
 }
 
-.more {
-  background-color: #F2F2F2;
-}
+.more { background-color: #F2F2F2; }
 
 .more .wrapper {
   width: 88%;
@@ -381,13 +375,12 @@ header .wrapper {
 .para::before {
   width: 40.5%;
   height: 1px;
-  background-color: #e7e7e7;
   display: block;
-  content: "";
   position: absolute;
-  left: 30%;
   top: 0%;
-
+  left: 30%;
+  background-color: #e7e7e7;
+  content: "";
 }
 
 .more-item .para {
@@ -400,9 +393,7 @@ header .wrapper {
   position: relative;
 }
 
-.more-item .para .para-span {
-  text-transform: capitalize;
-}
+.more-item .para .para-span { text-transform: capitalize; }
 
 .more-item .para2 {
   padding: 0 48px 30px 43px;
@@ -412,9 +403,7 @@ header .wrapper {
   line-height: 20px;
 }
 
-.more-item .para-span1 {
-  text-transform: capitalize;
-}
+.more-item .para-span1 { text-transform: capitalize; }
 
 .lern-btn {
   margin-bottom: 38px;
@@ -454,25 +443,23 @@ header .wrapper {
 
 .feature h4 {
   padding-top: 12px;
+  position: relative;
   color: #fff;
   font-size: 28px;
   text-align: center;
-  position: relative;
 }
 
-.feature h4 span {
-  text-transform: capitalize;
-}
+.feature h4 span { text-transform: capitalize; }
 
 .feature h4::before {
   width: 50%;
   height: 1px;
-  background-color: #606568;
   display: block;
-  content: "";
   position: absolute;
-  left: 25%;
   top: 0%;
+  left: 25%;
+  background-color: #606568;
+  content: "";
 }
 
 .gallery {
@@ -480,9 +467,7 @@ header .wrapper {
   background-color: #D9D9D9;
 }
 
-.gallery .gallery-sec .wrapper {
-  width: 96%;
-}
+.gallery .gallery-sec .wrapper { width: 96%; }
 
 .gallery .gallery-sec h5 {
   padding-bottom: 11px;
@@ -495,25 +480,23 @@ header .wrapper {
 
 .gallery .gallery-sec h4 {
   padding-top: 12px;
+  position: relative;
   color: #25210B;
   font-size: 28px;
   text-align: center;
-  position: relative;
 }
 
-.gallery .gallery-sec h4 span {
-  text-transform: capitalize;
-}
+.gallery .gallery-sec h4 span { text-transform: capitalize; }
 
 .gallery .gallery-sec h4::before {
   width: 50%;
   height: 1px;
-  background-color: #606568;
   display: block;
-  content: "";
   position: absolute;
-  left: 25%;
   top: 0%;
+  left: 25%;
+  background-color: #606568;
+  content: "";
 }
 
 .gallery-list {
@@ -523,10 +506,10 @@ header .wrapper {
 }
 
 .gallery-item {
-  flex-basis: 41%;
-  background-color: #E5E5E5;
   padding: 15px;
   margin: 34px 0 21px 0;
+  background-color: #E5E5E5;
+  flex-basis: 41%;
 }
 
 /*=================================
@@ -537,24 +520,21 @@ header .wrapper {
   footer styling starts here
 =================================*/
 footer {
-  background-color: #000;
   padding: 58px 0 52px 0;
-
+  background-color: #000;
 }
 
 footer .wrapper {
-  text-align: center;
   width: 100%;
+  text-align: center;
 }
 
-footer .social-list .links a {
-  text-indent: -9999px;
-}
+footer .social-list .links a { text-indent: -9999px; }
 
 .twitter::before {
   padding-left: 16px;
-  color: #737373;
   float: left;
+  color: #737373;
   content: "\f099";
   font-size: 26px;
   font-family: "FontAwesome";
@@ -563,8 +543,8 @@ footer .social-list .links a {
 
 .facebook::before {
   padding-left: 16px;
-  color: #737373;
   float: left;
+  color: #737373;
   content: "\f09a";
   font-size: 26px;
   font-family: "FontAwesome";
@@ -573,8 +553,8 @@ footer .social-list .links a {
 
 .instagram::before {
   padding-left: 16px;
-  color: #737373;
   float: left;
+  color: #737373;
   content: "\f16d";
   font-size: 26px;
   font-family: "FontAwesome";
@@ -583,8 +563,8 @@ footer .social-list .links a {
 
 .mail::before {
   padding-left: 16px;
-  color: #737373;
   float: left;
+  color: #737373;
   content: "\f0e0";
   font-size: 26px;
   font-family: "FontAwesome";
@@ -594,33 +574,23 @@ footer .social-list .links a {
 .twitter:hover::before,
 .facebook:hover::before,
 .instagram:hover::before,
-.mail:hover::before {
-  color: #fff;
-}
+.mail:hover::before { color: #fff; }
 
 footer p {
   padding-top: 38px;
   color: #6A7570;
   font-size: 12px;
   letter-spacing: 1px;
-
 }
 
-footer p span {
-  text-transform: capitalize;
-}
-
-
+footer p span { text-transform: capitalize; }
 /*=================================
   footer styling ends here
 =================================*/
-
 /*media query starts*/
 /*media query for 1025px-1200px starts here*/
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-  .banner h2 {
-    width: 25%;
-  }
+  .banner h2 { width: 25%; }
 
   .para::before {
     width: 48.5%;
@@ -632,9 +602,7 @@ footer p span {
 /*media query for 1025px-1200px end here*/
 /*media query for 996px-1024px starts here*/
 @media only screen and (min-width: 996px) and (max-width: 1024px) {
-  .banner h2 {
-    width: 26%;
-  }
+  .banner h2 { width: 26%; }
 
   .para::before {
     width: 51.5%;
@@ -646,13 +614,9 @@ footer p span {
 /*media query for 996px-1024px end here*/
 /*media query for 769px-995px starts here*/
 @media only screen and (min-width: 769px) and (max-width: 996px) {
-  .banner h2 {
-    width: 35%;
-  }
+  .banner h2 { width: 35%; }
 
-  .more-item h6 {
-    font-size: 8px;
-  }
+  .more-item h6 { font-size: 8px; }
 
   .para::before {
     width: 65.5%;
@@ -662,62 +626,186 @@ footer p span {
 }
 
 /*media query for 769px-995px end here*/
-/*media query for 769px-995px starts here*/
+/*media query for 481px-768px starts here*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  header .wrapper{
+  header .wrapper {
     padding: 0;
+    overflow: hidden;
   }
 
-  .logo{
-    margin-top: 35px;
-  }
+  .logo { margin-top: 35px; }
 
   .navbar-list {
-    flex-direction: column;
-    position: relative;
-    height: 100vh;
-    right: 0%;
-    top: -36px;
     width: 50%;
-    background-color: rgba(27, 74, 74, 0.7);
-    line-height: 60px;
+    height: 100vh;
+    position: relative;
+    top: -36px;
+    right: 0%;
+    background-color: rgba(27, 74, 74, 1);
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: rgb(0 0 0 / 80%) -6px -2px 16px 0px;
+    line-height: 60px;
     transform: translateX(100%);
     transition: all .3s;
   }
 
   .hamburger {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right:0;
-    z-index: 9999;
     margin-top: 35px;
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+    right: 0;
+    align-items: center;
   }
 
-  .banner h2 {
-    width: 35%;
-  }
+  .banner .wrapper h5 { font-size: 9px; }
 
-  .more-item h6 {
-    font-size: 8px;
-  }
+  .banner h2 { width: 59%; }
+
+  .more-list { flex-direction: column; }
+
+  .more-item { margin-bottom: 40px; }
+
+  .more-item h6 { font-size: 8px;}
 
   .para::before {
-    width: 65.5%;
-    left: 18%;
+    width: 46.5%;
+    left: 27%;
   }
 
+  .feature h5 {
+    font-size: 9px;
+    line-height: 18px;
+  }
+
+  .gallery .gallery-sec h5 {
+    font-size: 9px;
+    line-height: 18px;
+  }
+
+  .feature h4::before {
+    width: 100%;
+    left: 0;
+  }
+
+  .gallery .gallery-sec h4::before {
+    width: 100%;
+    left: 0;
+  }
+
+  .gallery-list { flex-direction: column; }
+
+  .gallery-item { margin: 34px 0 40px 0; }
 
 
-  .hamburger:hover + .navbar-list {
+
+  .hamburger:hover+.navbar-list {
     display: flex;
     transform: translateX(0);
   }
+
+  .hamburger:hover .bar:nth-child(2) { opacity: 0; }
+
+  .hamburger:hover .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+
+  .hamburger:hover .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
 }
 
+/*media query for 481px-768px end here*/
+/*media query for 320px-480px starts here*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  header .wrapper {
+    padding: 0;
+    overflow: hidden;
+  }
 
+  .logo { margin-top: 35px; }
 
-/*media query for 769px-995px end here*/
+  .h1-span { font-size: 17px; }
+
+  .navbar-list {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    top: -36px;
+    right: 0%;
+    background-color: rgba(27, 74, 74, 1);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 80%) -6px -2px 16px 0px;
+    line-height: 60px;
+    transform: translateX(100%);
+    transition: all .3s;
+  }
+
+  .hamburger {
+    margin-top: 35px;
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+    right: 0;
+    align-items: center;
+  }
+
+  .banner .wrapper h5 {
+    font-size: 7px;
+    line-height: 15px;
+  }
+
+  .banner h2 { width: 80%; }
+
+  .more-list { flex-direction: column; }
+
+  .more-item { margin-bottom: 40px; }
+
+  .more-item h6 {
+    font-size: 8px;
+    line-height: 18px;
+  }
+
+  .para::before {
+    width: 70.5%;
+    left: 15%;
+  }
+
+  .feature h5 {
+    font-size: 6px;
+    line-height: 18px;
+  }
+
+  .feature h4::before {
+    width: 100%;
+    left: 0;
+  }
+
+  .gallery .gallery-sec h5 {
+    font-size: 6px;
+    line-height: 18px;
+  }
+
+  .gallery .gallery-sec h4::before {
+    width: 100%;
+    left: 0;
+  }
+
+  .gallery-list { flex-direction: column; }
+
+  .gallery-item { margin: 34px 0 15px 0; } 
+
+  .hamburger:hover+.navbar-list {
+    display: flex;
+    transform: translateX(0);
+  }
+
+  .hamburger:hover .bar:nth-child(2) { opacity: 0; }
+
+  .hamburger:hover .bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+
+  .hamburger:hover .bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+}
+/*media query for 320px-480px end here*/
