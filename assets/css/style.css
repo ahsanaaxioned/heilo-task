@@ -536,10 +536,12 @@ header .wrapper {
   pointer-events: none;
 }
 
+.modal-content{ position: relative; }
+
 .modal-close {
   position: absolute;
-  top: 29%;
-  right: 78px;
+  top: 10px;
+  right: 0;
   cursor: pointer;
  }
  
