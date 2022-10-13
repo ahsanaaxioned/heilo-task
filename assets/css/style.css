@@ -538,8 +538,8 @@ header .wrapper {
 
 .modal-close {
   position: absolute;
-  top: 30px;
-  left: 30px;
+  top: 29%;
+  right: 78px;
   cursor: pointer;
  }
  
