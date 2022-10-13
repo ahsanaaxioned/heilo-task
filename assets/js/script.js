@@ -4,7 +4,6 @@ const modal = document.querySelector(".modal");
 const modalClose = document.querySelector(".modal-close");
 const overFlow =document.querySelector("html");
 // global variable declaration start here
-
 // Modal function start here
 galleryItem.forEach(function(image,idx){
     image.addEventListener("click", function(){
@@ -21,28 +20,19 @@ galleryItem.forEach(function(image,idx){
     });
 });
 // Modal function end here
+//  event for outside click and escape btn start here
 
+modal.addEventListener("click", function(e) {
+    if (e.target == modal) {
+        modal.classList.remove("appear");
+        overFlow.classList.remove("remove-scroll");
+    };
+  });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+window.addEventListener("keydown", function(e) {
+    if (e.key == "Escape") {
+        modal.classList.remove("appear");
+        overFlow.classList.remove("remove-scroll");
+    };
+  });
+//  event for outside click and escape btn start here
