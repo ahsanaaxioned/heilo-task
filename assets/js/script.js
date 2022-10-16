@@ -20,12 +20,16 @@ const modalClose = div.children[0];
 // modal structure end here
 // add and remove class function start here
 function appearClass() {
-    modal.classList.add("appear");
-    html.classList.add("remove-scroll");
+    if (modal) {
+        modal.classList.add("appear");
+        html.classList.add("remove-scroll");
+    }
 };
 function removeClass() {
-    modal.classList.remove("appear");
-    html.classList.remove("remove-scroll");
+    if (modal) {
+        modal.classList.remove("appear");
+        html.classList.remove("remove-scroll");
+    }
 };
 // add and remove class function start here
 // Modal function start here
@@ -33,8 +37,10 @@ galleryItem.forEach(function (image, index) {
     image.addEventListener("click", function () {
         const modalImg = document.querySelector(".modal-image"),
             galleryImage = document.querySelectorAll(".gallery-img");
-        modalImg.src = galleryImage[index].src;
-        appearClass();
+        if (modalImg && galleryImage) {
+            modalImg.src = galleryImage[index].src;
+            appearClass();
+        }
     });
 });
 modalClose.addEventListener("click", function () {
