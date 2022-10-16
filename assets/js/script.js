@@ -20,13 +20,13 @@ const modalClose = div.children[0];
 // modal structure end here
 // add and remove class function start here
 function appearClass() {
-    if (modal) {
+    if (modal && html) {
         modal.classList.add("appear");
         html.classList.add("remove-scroll");
     }
 };
 function removeClass() {
-    if (modal) {
+    if (modal && html) {
         modal.classList.remove("appear");
         html.classList.remove("remove-scroll");
     }
